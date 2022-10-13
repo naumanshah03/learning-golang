@@ -15,6 +15,7 @@ func main() {
 	checkNilErr(err)
 
 	length, err := io.WriteString(file, content)
+	checkNilErr(err)
 	fmt.Println("Length of the content is ", length)
 	defer file.Close()
 	ReadFile(fileName)
