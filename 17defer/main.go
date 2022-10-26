@@ -15,3 +15,5 @@ func myDefer() {
 		defer fmt.Print(i)
 	}
 }
+
+// Hello, 4, 3, 2, 1, 0, Two, One, World

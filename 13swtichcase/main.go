@@ -30,6 +30,9 @@ func main() {
 		fmt.Println("You can move 5 spot")
 
 	case 6:
-		fmt.Println("You can move 6 spot")
+		fmt.Println("You can move 6 spot and roll dice again")
+
+	default:
+		fmt.Println("What is that")
 	}
 }
